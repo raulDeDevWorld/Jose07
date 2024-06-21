@@ -1,0 +1,737 @@
+[
+    {
+        "MERCANCIA": "ACCESORIOS PARA AUTO",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "ACCESORIOS PARA CÁMARA",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "ACCESORIOS PARA COCINA",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "ACCESORIOS PARA MOTO",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "ACCESORIOS PARA TELÉFONO",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "AFEITADORAS",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "ALFOMBRA",
+        "G.A. %": 20,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "ALTAVOCES Y PARLANTES",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "AMOLADORAS",
+        "G.A. %": 5,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "APARATOS DE SONIDO Y VIDEO",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "APARATOS ELÉCTRICOS DE CARRO",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "APARATOS ELECTRÓNICOS",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "ARTICULOS DE NAVIDAD",
+        "G.A. %": 20,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "ARTÍCULOS DENTALES",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "ARTÍCULOS PARA JUEGO",
+        "G.A. %": 20,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "ASPIRADORAS",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "AUDIFONOS A BLUETOOTH",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "AURICULARES",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "BALONES",
+        "G.A. %": 20,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "BARBIJOS",
+        "G.A. %": 0,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "BASUREROS DE PLASTICO",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "BATERÍAS RECARGABLE",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "BICICLETA",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "BILLETERA",
+        "G.A. %": 40,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "BOLÍGRAFO",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "BOLSAS PLASTICAS",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "CAFETERAS",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "CALCULADORAS",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "CALZADO DE DEPORTE",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "CÁMARA DE VIDEO",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "CÁMARA DIGITAL",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "CASCOS DE SEGURIDAD",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "CELULARES",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "CENTRIFUGADORAS",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "CIGARRILLOS ELÉCTRICOS",
+        "G.A. %": 20,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "CIRCUITOS ELECTRÓNICOS",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "COCINAS",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "COMPONENTES ELECTRÓNICOS",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "COMPUTADORAS Y SUS PARTES",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "CONSOLA DE VIDEOJUEGOS",
+        "G.A. %": 20,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "CONTROLADOR MIDI",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "COSMÉTICOS",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "DESTORNILLADORES",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "DRONES",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "DVD\\BLU-RAY",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "EFECTOS DE GUITARRA Y BAJO",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "EQUIPOS DE DIFUSIÓN DE RADIO Y TV DE ELECTRÓNICA",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "EQUIPOS DE MÚSICA",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "ESCOBAS",
+        "G.A. %": 30,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "ESPONJAS",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "EXTRACTORAS",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "FAROLES DE AUTOMÓVIL",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "FLASH DE CÁMARA",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "FOCOS LED",
+        "G.A. %": 5,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "FOCOS SMART",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "GAFAS",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "GAFAS DE SOL",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "GLOBOS DE LATEX",
+        "G.A. %": 30,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "GORRAS",
+        "G.A. %": 20,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "GUANTES QUIRURGICOS",
+        "G.A. %": 0,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "GUITARRA",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "GUITARRA ELECTRICA",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "HERRAMIENTAS",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "HILOS DE COSER",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "HOGAR & JARDINERÍA",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "HOJAS BOND",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "HORNOS",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "IMPRESORA 3D",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "IMPRESORA LÁSER",
+        "G.A. %": 5,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "INSTRUMENTOS MUSICALES",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "JABONES",
+        "G.A. %": 20,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "JOYAS DE ORO",
+        "G.A. %": 20,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "JOYAS DE PLATA",
+        "G.A. %": 20,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "JUGUETES",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "LADRILLOS",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "LAMPARA",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "LAPICES",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "LAPTOPS",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "LENTES PARA CÁMARA",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "LIBROS",
+        "G.A. %": 0,
+        "IVA %": 0
+    },
+    {
+        "MERCANCIA": "LICUADORAS",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "LINTERNAS",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "LLANTAS",
+        "G.A. %": 30,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "MAQUILLAJE DE LABIOS",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "MAQUILLAJE DE OJOS",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "MÁQUINA DE GIMNASIA",
+        "G.A. %": 20,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "MÁQUINA PARA TATUAJES",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "MAQUINAS DE COSER",
+        "G.A. %": 5,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "MARCADORES",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "MASCARAS",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "MEDIDORES",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "MEMORIAS",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "MICROFONOS",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "MICROONDAS",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "MICROSCOPIO",
+        "G.A. %": 5,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "MIRAS TELESCÓPICAS",
+        "G.A. %": 5,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "MOCHILA DE CUERO",
+        "G.A. %": 20,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "MOCHILA TEXTIL",
+        "G.A. %": 40,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "MONOPATINES",
+        "G.A. %": 20,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "MONTURAS DE PLASTICO",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "MOTOCICLETAS ELECTRICAS",
+        "G.A. %": 0,
+        "IVA %": 0
+    },
+    {
+        "MERCANCIA": "MOUSE DE ESCRITORIO",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "MUEBLES",
+        "G.A. %": 40,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "MUÑECAS",
+        "G.A. %": 20,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "MUÑECAS O MUÑECOS DE PLASTICO",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "PALOS DE GOLF",
+        "G.A. %": 20,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "PANTALLA TÁCTIL",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "PANTALLAS LED",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "PAPEL  COUCHE",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "PAPEL HIGIENICO",
+        "G.A. %": 20,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "PARLANTES",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "PARTES DE MOTOCICLETA",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "PELOTAS DE DEPORTES",
+        "G.A. %": 20,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "PELUCAS",
+        "G.A. %": 20,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "PELUCHES",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "POLERAS DEPORTIVAS",
+        "G.A. %": 40,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "PROYECTORAS",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "RADIO PARA AUTOS",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "RADIOS",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "REGLAS DE PLASTICO",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "RELOJES DE PULSERA",
+        "G.A. %": 20,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "RELOJES INTELIGENTES",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "REPRODUCTORES DE SONIDO Y VIDEO",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "REPUESTOS DE AUTOS",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "RESALTADORES",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "REVISTA",
+        "G.A. %": 0,
+        "IVA %": 0
+    },
+    {
+        "MERCANCIA": "ROMPECABEZAS",
+        "G.A. %": 30,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "ROPA",
+        "G.A. %": 40,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "RÚTER",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "SANDWICHERAS",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "SECADORAS DE ROPA",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "SILLAS DE PLASTICO",
+        "G.A. %": 40,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "STICKERS",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "SUMIDORAS",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "TABLET",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "TARJETAS DE SONIDO",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "TELEFONOS",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "TELEVISORES",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "TIJERAS",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "TOALLAS DE ALGODÓN",
+        "G.A. %": 40,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "TOSTADORAS",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "TRÍPODE DE CÁMARA",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "TV BOX",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "VAJILLA",
+        "G.A. %": 10,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "VEHICULOS ELECTRICOS",
+        "G.A. %": 0,
+        "IVA %": 0
+    },
+    {
+        "MERCANCIA": "VISORES DE REALIDAD VIRTUAL",
+        "G.A. %": 15,
+        "IVA %": 14.94
+    },
+    {
+        "MERCANCIA": "ZAPATOS",
+        "G.A. %": 20,
+        "IVA %": 14.94
+    }
+]
