@@ -33,6 +33,7 @@ export function UserProvider({ children }) {
     const [modal, setModal] = useState('')
     const [msg, setMsg] = useState('')
     const [tienda, setTienda] = useState('Comprar')
+	const [pdfData, setPdfData] = useState({tarifa: [''], otrosGastos: ['']})
 
 	const videoRef = useRef();
 	const [play, setPlay] = useState(true)
@@ -40,7 +41,9 @@ export function UserProvider({ children }) {
 	const [introVideo, setIntroVideo] = useState(true)
 	const [webScann, setWebScann] = useState(false)
 
-
+	function setUserPdfData (data) {
+		setPdfData(data)
+	}
 
 	const setUserProfile = (data) => {
 		setUser(data)
@@ -118,6 +121,8 @@ export function UserProvider({ children }) {
 			setQr,
 			cliente, setCliente,
 			select, setSelect,
+			pdfData,
+			setUserPdfData,
 			setUserProfile,
 			setUserData,
 			setUserCart,
