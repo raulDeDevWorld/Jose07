@@ -31,7 +31,7 @@ function Admin() {
                     <Card2 img="/usuarios.png" buttonText={"Administrar Clientes"} click={(e) => redirection("Admin/Users")} />
                     <Card2 img="/editor.png" buttonText={"Editor Web"} click={(e) => redirection("Admin/Edit")} />
                     <Card2 img="/cotizador.png" buttonText={"Cotizador"} click={(e) => redirection("Admin/Cotizador")} />
-                    {/* <Card2 img="/cotizador.png" buttonText={"Cotizador"} click={(e) => redirection("Admin/Cotizador")} /> */}
+                    <Card2 img="/cotizador.png" buttonText={"Tracking"} click={(e) => redirection("Admin/Tracking")} />
                 </div>
             </div>
 

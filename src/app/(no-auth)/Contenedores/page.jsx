@@ -14,26 +14,9 @@ import Footer from '@/components/footer'
 import { useSearchParams } from 'next/navigation'
 
 
-const db = [
-  {
-    title: 'ESTACIÓN DE FLETE DE CONTENEDORES',
-    image: '/container.png',
-    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit repellat voluptatem magni sequi in.'
-  },
-  {
-    title: 'ESTACIÓN DE FLETE DE CONTENEDORES',
-    image: '/container.png',
-    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit repellat voluptatem magni sequi in.'
-  },
-  {
-    title: 'ESTACIÓN DE FLETE DE CONTENEDORES',
-    image: '/container.png',
-    paragraph: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit repellat voluptatem magni sequi in.'
-  },
-]
 
-
-function Componente({ title, image, paragraph }) {
+function Componente({route, db, id, title, image, paragraph }) {
+  const router = useRouter()
   return <div className='relative bg-[#ffffffcb] my-5   lg:max-w-[500px] lg:min-w-[250px] lg:min-h-[250px] lg:text-[18px] lg:mx-5 flex flex-col justify-center items-center rounded-[15px] '>
     <img src={image} className=" w-[200px] lg:max-w-[200px] object-contain p-5" alt="" />
     <div className="w-full bg-gradient-to-t from-[#00195cbe] via-[#00195cbe] to-[#00195c]  p-5 py-5 rounded-t-[0]  rounded-b-[15px]">
@@ -43,8 +26,8 @@ function Componente({ title, image, paragraph }) {
 
       
       <div className="relative flex justify-end w-[100%]">
-        <button className="inline-block bg-[#ffb834] px-3 text-[12px] border text-center font-medium py-2 m-1  
-         cursor-pointer rounded-[5px]">Saber mas</button>
+        <button className="inline-block bg-[#ffb834] px-3 text-[12px] border text-center font-medium py-2 m-1  cursor-pointer rounded-[5px]" onClick={()=>router.push(`/Contenedores/Detalles?query=${id}&item=${route}`)}>
+          Saber mas</button>
       </div>
     </div>
   </div>
@@ -65,7 +48,7 @@ function Item({ e1, e2 }) {
   </ScrollAnimation>
 }
 
-function Section({ subtitle, description, video, id,  }) {
+function Section({ subtitle, description, video, tarjetas, id,  }) {
 
   const {  cliente,  } = useUser()
 
@@ -81,14 +64,7 @@ function Section({ subtitle, description, video, id,  }) {
         >
           <p className=' text-[16px] text-[white] pb-5' dangerouslySetInnerHTML={{ __html: description }}>
           </p>
-          {/* <div className='flex justify-end '>
-            <button type="button" className="w-full border-[2px] md:max-w-[300px] text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/50 font-medium rounded-lg text-[12px] px-5 py-2.5 text-center inline-flex items-center ">
-              Orden de servicio
-              <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-              </svg>
-            </button>
-          </div> */}
+    
         </ScrollAnimation>
       </div>
       <div className='w-full text-[white] grid grid-cols-2 gap-5 py-12'>
@@ -105,9 +81,9 @@ function Section({ subtitle, description, video, id,  }) {
       </video>
       <div className='absolute top-0  w-full min-h-[100vh] h-full object-cover z-20 bg-gradient-to-tr from-[#00195c]  via-[#cfbd7546] to-[#00195c]    lg:bg-gradient-to-tr lg:from-[#00195cd7]  lg:via-[#cfbd7546] lg:to-[#00195c] '></div>
 
-      {cliente && cliente[id] && cliente[id].tarjetas && Object.values(cliente[id].tarjetas).map((i, index) => {
+      {cliente && cliente[id] && cliente[id].tarjetas && Object.entries(tarjetas).map((i, index) => {
         return <div className='inline px-5 z-50' key={index}>
-          <Componente title={i.title} image={i.url} paragraph={i.paragraph} />
+          <Componente route={i[0]} id={id} db={i[1]} title={i[1].title} image={i[1].url} paragraph={i[1].paragraph} />
         </div>
       })}
     </div>
@@ -115,19 +91,6 @@ function Section({ subtitle, description, video, id,  }) {
   </section>
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 export default function Home() {
   const { user, introVideo, userDB, setUserProfile, setUserSuccess,  cliente, nav, navItem, setCliente, focus, setFocus, seeMore, setSeeMore } = useUser()
@@ -192,13 +155,8 @@ export default function Home() {
   }
   return (
     <main className={`relative h-screen w-screen `} onClick={reset}>
-      {cliente[query] && <Section subtitle={cliente[query].titulo} description={cliente[query].content} video={cliente[query].url} degrade='#00000067' tarjetas={cliente[query].tarjetas} miniTarjetas={cliente[query].miniTarjetas} id={query}></Section>}
-
-
+      {cliente[query] && <Section  subtitle={cliente[query].titulo} description={cliente[query].content} video={cliente[query].url} degrade='#00000067' tarjetas={cliente[query].tarjetas} miniTarjetas={cliente[query].miniTarjetas} id={query}></Section>}
     <Footer></Footer>
-
-
-
     </main>
 
   )
