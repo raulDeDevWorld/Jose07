@@ -487,7 +487,10 @@ function CotizacionTerrestre() {
                             <InputFlotante type="text" name={"FECHA"} onChange={handleEventChange} />
                         </div>
                     </div>
-
+                    <br />
+                    <div className='flex justify-center'>
+                                <Button theme="Primary" click={(e) => { saveFrontPage(e,) }}>Guardar</Button>
+                            </div>
 
                 </form>
             </div>
