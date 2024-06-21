@@ -100,7 +100,7 @@ function Pages() {
                     <div className='relative p-5 my-5 mt-10 bg-white space-y-5'>
                         <h5 className='text-center font-medium text-[16px]'>Informacion de Carga<br /> </h5>
 
-                        < InputFlotante type="text" id="floating_5" disabled={true}  disabled={true} value={userDB.tracking[query]['data']} required label={'data'} shadow='shadow-white' />
+                        < InputFlotante type="text" id="floating_5"  disabled={true} value={userDB.tracking[query]['data']} required label={'data'} shadow='shadow-white' />
                         < InputFlotante type="text" id="floating_5"   disabled={true} value={userDB.tracking[query]['data1']} required label={'data1'} shadow='shadow-white' />
                         < InputFlotante type="number" id="floating_5"   disabled={true} value={userDB.tracking[query]['data2']} required label={'data2'} shadow='shadow-white' />
                         < InputFlotante type="number" id="floating_5"   disabled={true} value={userDB.tracking[query]['data3']} required label={'data3'} shadow='shadow-white' />
